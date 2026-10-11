@@ -1,0 +1,20 @@
+.fc-chips { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 4px 0 8px; }
+.fc-chip { padding: 10px 12px; background: var(--bg); border-radius: 12px; display: flex; flex-direction: column; gap: 2px; }
+.fc-chip span { font-size: 0.72rem; color: var(--muted); font-weight: 600; }
+.fc-chip strong { font-size: 1.1rem; font-variant-numeric: tabular-nums; }
+.fc-chip em { font-style: normal; font-size: 0.78rem; color: var(--green-700); margin-left: 4px; }
+.fc-chip-rec { background: var(--green-50); border: 1px solid var(--green-200); }
+
+.fc-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 0.76rem; color: var(--muted); }
+.fc-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.sw { display: inline-block; }
+.sw-line { width: 18px; height: 3px; border-radius: 2px; background: #1f7a4d; }
+.sw-band { width: 18px; height: 10px; border-radius: 3px; background: rgba(31, 122, 77, 0.22); }
+.sw-today, .sw-rec { width: 10px; height: 10px; border-radius: 50%; }
+.sw-today { background: #2563eb; }
+.sw-rec { background: #16a34a; }
+
+.chart-tip { display: flex; flex-direction: column; gap: 4px; min-width: 190px; padding: 10px 12px; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow-md); font-size: 0.82rem; }
+.chart-tip-row { display: flex; justify-content: space-between; gap: 16px; color: var(--muted); }
+.chart-tip-row b { color: var(--text); font-variant-numeric: tabular-nums; }
+.chart-tip-tag { align-self: flex-start; margin-top: 4px; padding: 2px 8px; border-radius: 999px; background: var(--green-100); color: var(--green-700); font-size: 0.72rem; font-weight: 700; }

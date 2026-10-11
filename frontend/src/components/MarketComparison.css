@@ -1,0 +1,13 @@
+.mc-note { font-size: 0.8rem; color: var(--muted); }
+.mc-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.mc-table th { text-align: left; padding: 10px 14px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--line); white-space: nowrap; }
+.mc-table td { padding: 14px; border-bottom: 1px solid var(--line); vertical-align: top; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mc-table tbody tr:last-child td { border-bottom: 0; }
+.mc-sub { display: block; margin-top: 2px; font-size: 0.74rem; color: var(--muted); }
+.mc-name { font-weight: 700; }
+.mc-pill { margin-left: 8px; padding: 2px 8px; border-radius: 999px; background: var(--green-600); color: #fff; font-size: 0.68rem; font-weight: 700; }
+.mc-rank { display: inline-grid; place-items: center; min-width: 32px; height: 28px; padding: 0 6px; border-radius: 8px; background: var(--bg); font-weight: 700; font-size: 0.82rem; }
+.mc-rank.top { background: var(--green-600); color: #fff; }
+.mc-profit { font-weight: 800; font-size: 1rem; }
+.mc-best td { background: var(--green-50); border-bottom-color: var(--green-200); }
+.mc-best .mc-profit { color: var(--green-700); }

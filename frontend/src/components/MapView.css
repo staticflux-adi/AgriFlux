@@ -1,0 +1,19 @@
+.map-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0; padding: 0; list-style: none; font-size: 0.76rem; color: var(--muted); }
+.map-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.map-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px var(--line); }
+
+.map-card .card-head { flex-wrap: wrap; margin-bottom: 12px; }
+.map { height: 420px; border-radius: 12px; }
+
+.leaflet-tooltip.dist-tip {
+  padding: 1px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+.leaflet-tooltip.dist-tip::before { display: none; }
+.leaflet-tooltip.farm-tip { background: #2563eb; border-color: #2563eb; color: #fff; }
