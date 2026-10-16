@@ -229,7 +229,6 @@ AI Recommendation
 ## Database
 
 - SQLite
-- PostgreSQL (optional)
 
 ---
 
